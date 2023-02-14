@@ -41,6 +41,13 @@ En el archivo __.css__ agregamos un reset basico con el _selector universal_ com
 
   __background-image__ _Para agregar una imagen ponemos la ruta, Ejm. url(../image/hero.jpg)_
 
+                      __AGREGAR GRADIENT__
+
+                      _Antes de url, agregamos la palabra_ __linear-gradient()__ _y separamos con una coma_
+
+                      _Dentro de los parentesis agregamos 2 codigos de color: el inicial y el final_
+                      
+                      
   __height__  _Se recomiend usar la medida vh, que es la altura del viewport en porcentaje, Ejm. 95vh_
 
   __background-size__ _cover para cubrir todo_
