@@ -57,9 +57,24 @@ En el archivo __.css__ agregamos un reset basico con el _selector universal_ com
                            _Puede ser: top, center, bottom_
 
 ### Imagen de logo
-__box__ _Agregamos un div con una clase llamada_ __logo-box__
-__img__ _Dentro del div logo-box agregamos una imagen con la clase_ __logo__
+
+_Agregamos un div con una clase llamada_ __logo-box__
+_Dentro del div logo-box agregamos una imagen con la clase_ __logo__
 __A la clase padre de box__ _le agregamos_ __position: relative__
 __A la clase box__ _le agregamos_ __position: absolute__
 __A la clase box__ _le damos un valor top y otro left donde mostrara la imagen_
 __A la clase logo__ _le agregamos un height para alterar tamaño de la imagen_ 
+
+### Texto central
+
+_Como ya tenemos la clase padre en relative, creamos dentro una para el texto_
+_Creamos un div_ __text-box__ _con posicion absoluta_
+_Le ponemos un top:40% y un left: 50%_
+_Comienza a poner el texto desde la esquina y no se ve centrado, por lo que agregamos:_
+__transform: translate(-50%, -50%);__
+_Con la finalidad de agregar 2 titulos en un solo H1 para SEO creamos una clase_ __heading-primary__
+_Dentro agregamos 2 span con clases:_ __heading-primary-main__ y __heading-primary-sub__
+_A la clase del H1 le agregamos el color y el_ __text-transform__ _a uppercase_
+_A los headings de los span les ponemos_ __display:block__
+_Le damos una fuente mas grande (60px y 20px) y un espaciado mayor (35px y 17.4)_
+_Por default H1 tiene el peso de 700, asi que se lo cambiamos a 400_ __font-weight:400;__
