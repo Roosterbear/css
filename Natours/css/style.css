@@ -14,7 +14,20 @@ body{
 
 .header{
   height:95vh;
-  background-image: url(../image/hero.jpg);
+  background-image: linear-gradient(to bottom right, #23165f99, #95673699), url(../image/hero.jpg);
   background-size:cover;
   background-position:center;
+  position: relative;
+}
+
+.logo-box{
+  /* AQUI SOLO CONTROLAMOS LA POSICION */
+  position:absolute;
+  top:40px;
+  left:40px;
+}
+
+.logo{
+/* AQUI CONTROLAMOS EL TAMAÑO */
+  height:35px;
 }

@@ -39,14 +39,15 @@ En el archivo __.css__ agregamos un reset basico con el _selector universal_ com
 
 ### Creamos una etiqueta que envuelva nuestro encabezado
 
-  __background-image__ _Para agregar una imagen ponemos la ruta, Ejm. url(../image/hero.jpg)_
-
-                      __AGREGAR GRADIENT__
-
-                      _Antes de url, agregamos la palabra_ __linear-gradient()__ _y separamos con una coma_
-
-                      _Dentro de los parentesis agregamos 2 codigos de color: el inicial y el final_
-                      
+  __background-image__ _Para agregar una imagen ponemos la ruta_
+                       _Ejm. url(../image/hero.jpg)_
+  __AGREGAR GRADIENT__
+  _Antes de url, agregamos la palabra_ __linear-gradient()__ _y separamos con una coma_
+  _Dentro de los parentesis agregamos 2 codigos de color: el inicial y el final, Ejm. #7ED56F, 28B485_
+  _Podemos manejar transparencias con codigo RGBA, Ejm. rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)_
+  _Siendo 0.8 el 80%_
+  _Antes de los codigos de color podemos agregar el sentido a donde cambiaran los colores:_
+  _top / bottom y right / left, separados de los colores por una coma. Ejm. to right bottom_
                       
   __height__  _Se recomiend usar la medida vh, que es la altura del viewport en porcentaje, Ejm. 95vh_
 
@@ -54,3 +55,11 @@ En el archivo __.css__ agregamos un reset basico con el _selector universal_ com
   
   __background-position__  _Es la parte que tendra prioridad en caso de disminuir_ 
                            _Puede ser: top, center, bottom_
+
+### Imagen de logo
+__box__ _Agregamos un div con una clase llamada_ __logo-box__
+__img__ _Dentro del div logo-box agregamos una imagen con la clase_ __logo__
+__A la clase padre de box__ _le agregamos_ __position: relative__
+__A la clase box__ _le agregamos_ __position: absolute__
+__A la clase box__ _le damos un valor top y otro left donde mostrara la imagen_
+__A la clase logo__ _le agregamos un height para alterar tamaño de la imagen_ 
