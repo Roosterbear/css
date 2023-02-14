@@ -9,7 +9,8 @@ Bajo los _meta_ agregar 2 etiquetas link con tabulador, ambos con __rel="stylesh
   * Agregamos la carpeta __css__ + el signo de __?__ y la variable __family__ + el __signo de =__
 
   * Ahora agregamos el nombre de la fuente + __:__ (_Lato:_) y las medidas separadas por comas (_100,300,400,700,900_)
-    _Quedando: href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"_
+
+    _Quedando algo como: href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"_
 
 * En el segundo _link_ agregamos en __href__ la carpeta(s) separando con una __/__ y el nombre del archivo __.css__
 
