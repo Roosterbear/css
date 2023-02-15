@@ -78,3 +78,25 @@ _A la clase del H1 le agregamos el color y el_ __text-transform__ _a uppercase_
 _A los headings de los span les ponemos_ __display:block__
 _Le damos una fuente mas grande (60px y 20px) y un espaciado mayor (35px y 17.4)_
 _Por default H1 tiene el peso de 700, asi que se lo cambiamos a 400_ __font-weight:400;__
+
+### Animacion de texto
+
+_Se crean con la instruccion_ __@keyframes__ _mas el nombre que deseamos poner y llaves_
+__Estado inicial__
+_Le ponemos un_ __0%__ _y llaves para encerrar los efectos_
+_Para que aparezca iniciamos con_ __opacity:0__
+_Si queremos mover de izquierda a derecha usamos_ __transform: translateX(-100)__
+_Esto movera en el eje de las x 100px al iniciar_
+__Estado final__
+_Lo ponemos con_ __100%__ _y las llaves para encerrar los efectos_
+_Si queremos efectos intermedios ponemos otro porcentaje como 30% o 70%_
+__usar el efecto__
+_Para usar el efecto, en la clase del texto debemos agregar:_ __animation-name:__ _+nombre de animacion_
+_Ademas debemos agregarle_ __animation-duration: 5s__ _con los segundos deseados_
+_Existen otras funciones como_ __animation-timing-function: ease-out__, __animation-delay: 3s__ o __animation-iteration-count: 3__
+
+
+
+
+
+
